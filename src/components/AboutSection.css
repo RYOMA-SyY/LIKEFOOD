@@ -1,0 +1,178 @@
+.about-section {
+  background-color: var(--color-charcoal);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+  scroll-margin-top: 80px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.5rem;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+.about-content {
+  max-width: 540px;
+}
+
+.about-badge {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.about-section .about-heading {
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: clamp(1.85rem, 3.5vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  text-align: start;
+}
+
+.about-body,
+.service-body {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+  text-align: start;
+}
+
+.about-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.about-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.about-feature-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-primary-yellow);
+  color: var(--color-charcoal);
+  font-size: 0.8rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.about-image-wrapper,
+.service-image-wrapper {
+  position: relative;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  aspect-ratio: 16 / 11;
+}
+
+.about-image,
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform var(--transition-slow);
+}
+
+.about-image-wrapper:hover .about-image,
+.service-image-wrapper:hover .service-image {
+  transform: scale(1.03);
+}
+
+.service-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.5rem;
+  align-items: center;
+  padding-top: 4.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.service-content {
+  max-width: 540px;
+}
+
+/* RTL specific adjustments */
+[dir="rtl"] .about-heading,
+[dir="rtl"] .about-body,
+[dir="rtl"] .service-body {
+  text-align: right;
+}
+
+[dir="rtl"] .about-feature-item {
+  flex-direction: row;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .about-section {
+    padding: 4.5rem 0;
+  }
+
+  .about-grid,
+  .service-section {
+    gap: 3rem;
+  }
+
+  .about-grid {
+    margin-bottom: 4rem;
+  }
+
+  .service-section {
+    padding-top: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 3.5rem 0;
+  }
+
+  .about-grid,
+  .service-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-content,
+  .service-content {
+    max-width: 100%;
+    order: 1;
+  }
+
+  .about-image-wrapper,
+  .service-image-wrapper {
+    order: 2;
+    aspect-ratio: 16 / 10;
+  }
+
+  .about-grid {
+    margin-bottom: 3.5rem;
+  }
+
+  .service-section {
+    padding-top: 3rem;
+  }
+}

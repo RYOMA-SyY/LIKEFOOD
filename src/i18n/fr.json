@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "main": "Navigation principale",
+    "mobile": "Menu mobile"
+  },
+  "hero": {
+    "tagline": "La pause gourmande qui fait plaisir.",
+    "headline": "Le goût qui met tout le monde d'accord.",
+    "body": "Chez Like Food, on prépare des pizzas, tacos, burgers, sandwiches, plats, pâtes, salades et jus généreux pour les petites faims comme les grandes envies. Des recettes simples, servies avec le sourire, au cœur de Casablanca.",
+    "ctaPrimary": "Voir le menu",
+    "ctaSecondary": "Nous trouver",
+    "videoLabel": "Vidéo de présentation Like Food",
+    "playVideo": "Lire la vidéo",
+    "pauseVideo": "Mettre en pause"
+  },
+  "categories": {
+    "title": "Nos Spécialités",
+    "subtitle": "Découvrez nos catégories phares et trouvez votre bonheur",
+    "pizza": "Pizzas",
+    "pizzas": "Pizzas",
+    "tacos": "Tacos",
+    "tacosSandwiches": "Tacos & Sandwichs",
+    "burgers": "Burgers",
+    "plats": "Plats",
+    "platsPates": "Plats & Pâtes",
+    "salades": "Salades",
+    "saladesJus": "Salades & Jus",
+    "viewCategory": "Voir la catégorie {{category}}"
+  },
+  "featured": {
+    "title": "Nos Incontournables",
+    "subtitle": "Les plats signatures qui font l'unanimité",
+    "pizza-mixte": {
+      "name": "Pizza Mixte",
+      "category": "Pizza",
+      "description": "Garniture mixte généreuse, fromage fondant, pâte croustillante",
+      "price": "25 DH petit / 35 DH grand"
+    },
+    "pastichio-gratine": {
+      "name": "Pastichio Gratiné",
+      "category": "Pastichio",
+      "description": "Pâtes, béchamel onctueuse, viande hachée, gratiné au four",
+      "price": "25 DH"
+    },
+    "like-burger": {
+      "name": "Like Burger",
+      "category": "Burgers",
+      "description": "Steak juteux, double fromage, sauce signature, frites comprises",
+      "price": "20 DH seul / 25 DH avec frites"
+    },
+    "altText": "Photo de {{name}}",
+    "order": "Commander"
+  },
+  "menu": {
+    "title": "Notre Menu Complet",
+    "subtitle": "Découvrez toutes nos spécialités — pizzas, tacos, burgers, plats, pâtes, salades et jus frais",
+    "subtitleAll": "Tous nos plats ({{count}} articles)",
+    "subtitleCategory": "{{category}} ({{count}} articles)",
+    "searchSuffix": "— recherche: \"{{query}}\"",
+    "searchPlaceholder": "Rechercher un plat, ingrédient...",
+    "clearSearch": "Effacer la recherche",
+    "searchAriaLabel": "Rechercher dans le menu",
+    "filterAriaLabel": "Filtrer par catégorie",
+    "resultsCount": "{{count}} plat trouvé",
+    "resultsCount_plural": "{{count}} plats trouvés",
+    "noResults": "Aucun plat ne correspond à votre recherche",
+    "resetFilters": "Réinitialiser les filtres",
+    "itemCount": "{{count}} plat",
+    "itemCount_plural": "{{count}} plats",
+    "categories": {
+      "all": "Tout le menu",
+      "tacos": "Tacos",
+      "sandwichs": "Sandwichs",
+      "panini": "Panini",
+      "pizza": "Pizza",
+      "plats": "Plats",
+      "burgers": "Burgers",
+      "poutchi": "Poutchi",
+      "pastichio": "Pastichio",
+      "nuggets": "Nuggets",
+      "pates": "Pâtes",
+      "shawarma": "Shawarma",
+      "salade": "Salade",
+      "chicken": "Chicken",
+      "jus": "Jus",
+      "extras": "Extras"
+    },
+    "priceSolo": "{{price}} DH seul",
+    "priceWithFries": "{{price}} DH avec frites",
+    "priceSmall": "{{price}} DH petit",
+    "priceLarge": "{{price}} DH grand",
+    "priceExtra": "+{{price}} DH",
+    "viewOriginalBoard": "Voir la carte originale (Image)",
+    "originalBoardTitle": "Carte Menu Like Food",
+    "originalBoardAlt": "Menu complet Like Food"
+  },
+  "about": {
+    "badge": "Notre Histoire",
+    "title": "Simple, généreux, toujours gourmand.",
+    "body": "Une cuisine de quartier pensée pour être partagée : des produits réconfortants, des portions généreuses et une carte qui laisse chacun trouver son favori. Sur place, à emporter ou en livraison, Like Food garde la même promesse : vous servir quelque chose qui vous fera dire « j'aime ».",
+    "serviceBadge": "L'Esprit Like Food",
+    "serviceTitle": "Une adresse qui fait plaisir.",
+    "serviceBody": "Une équipe accueillante, une carte accessible et des plats préparés pour être dégustés sans attendre. C'est l'esprit Like Food : bon, généreux et sans complication.",
+    "imageAlt": "Notre cuisine généreuse et faite maison",
+    "serviceImageAlt": "Équipe accueillante et plats préparés avec soin",
+    "feature1": "Ingrédients frais & de qualité",
+    "feature2": "Portions généreuses & copieuses",
+    "feature3": "Sur place, à emporter & livraison"
+  },
+  "gallery": {
+    "title": "Galerie & Vidéo",
+    "subtitle": "Découvrez l'ambiance et nos plats en images",
+    "videoLabel": "Vidéo de présentation Like Food",
+    "playVideo": "Lire la vidéo",
+    "pauseVideo": "Mettre en pause",
+    "photosLabel": "Photos de nos plats",
+    "viewImage": "Voir l'image {{index}} en grand",
+    "prevImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "lightboxLabel": "Image {{current}} sur {{total}}",
+    "close": "Fermer"
+  },
+  "contact": {
+    "title": "On se retrouve chez Like Food ?",
+    "address": "Adresse",
+    "location": "HGMC+H7V, Unnamed Road, Casablanca, Maroc",
+    "viewMap": "Voir sur Google Maps",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "hoursNotice": "Les horaires d'ouverture seront communiqués prochainement.",
+    "hoursNote": "Les horaires d'ouverture seront communiqués prochainement.",
+    "delivery": "Livraison",
+    "deliveryNote": "Disponibilité à confirmer",
+    "deliveryPlatforms": "Plateformes de livraison",
+    "platforms": ["Yassir Express", "Glovo"],
+    "mapTitle": "Localisation Like Food sur Google Maps"
+  },
+  "map": {
+    "title": "Notre Emplacement",
+    "subtitle": "Venez nous rendre visite au cœur de Casablanca ou retrouvez-nous sur Google Maps",
+    "iframeTitle": "Emplacement Like Food Casablanca sur Google Maps"
+  },
+  "footer": {
+    "tagline": "La pause gourmande qui fait plaisir.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "findUs": "Nous trouver",
+    "viewMap": "Voir sur Google Maps",
+    "copyright": "© {{year}} Like Food. Tous droits réservés.",
+    "legalNote": "Site vitrine — Pas de commande en ligne. Les prix et disponibilités sont donnés à titre indicatif."
+  },
+  "mobileActionBar": {
+    "label": "Actions rapides",
+    "call": "Appeler",
+    "directions": "Itinéraire",
+    "directionsAria": "Itinéraire vers Like Food",
+    "menu": "Menu"
+  },
+  "header": {
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "language": {
+    "arabic": "العربية",
+    "english": "English",
+    "french": "Français",
+    "select": "Choisir la langue"
+  },
+  "common": {
+    "close": "Fermer",
+    "skipToContent": "Aller au contenu principal"
+  }
+}

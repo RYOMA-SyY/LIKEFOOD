@@ -1,0 +1,21 @@
+{
+  "name": "Like Food Casablanca",
+  "short_name": "Like Food",
+  "description": "Café et restaurant casual à Casablanca : pizzas, tacos, burgers, sandwiches, plats, pâtes, salades et jus frais.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F1E5",
+  "theme_color": "#F4C928",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "restaurant"],
+  "lang": "fr",
+  "dir": "ltr"
+}

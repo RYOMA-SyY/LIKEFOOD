@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "main": "Main Navigation",
+    "mobile": "Mobile Menu"
+  },
+  "hero": {
+    "tagline": "The tasty break that makes you happy.",
+    "headline": "The taste that pleases everyone.",
+    "body": "At Like Food, we prepare pizzas, tacos, burgers, sandwiches, dishes, pasta, salads and juices generously for small appetites as well as big cravings. Simple recipes, served with a smile, in the heart of Casablanca.",
+    "ctaPrimary": "View Menu",
+    "ctaSecondary": "Find Us",
+    "videoLabel": "Like Food presentation video",
+    "playVideo": "Play video",
+    "pauseVideo": "Pause video"
+  },
+  "categories": {
+    "title": "Our Specialties",
+    "subtitle": "Discover our favorite categories and find your happiness",
+    "pizza": "Pizzas",
+    "pizzas": "Pizzas",
+    "tacos": "Tacos",
+    "tacosSandwiches": "Tacos & Sandwiches",
+    "burgers": "Burgers",
+    "plats": "Dishes",
+    "platsPates": "Dishes & Pasta",
+    "salades": "Salads",
+    "saladesJus": "Salads & Juices",
+    "viewCategory": "View {{category}} category"
+  },
+  "featured": {
+    "title": "Our Must-Try Dishes",
+    "subtitle": "Signature dishes that please everyone",
+    "pizza-mixte": {
+      "name": "Pizza Mixte",
+      "category": "Pizza",
+      "description": "Generous mixed toppings, melted cheese, crispy crust",
+      "price": "25 DH small / 35 DH large"
+    },
+    "pastichio-gratine": {
+      "name": "Pastichio Gratiné",
+      "category": "Pastichio",
+      "description": "Pasta, creamy béchamel, minced meat, oven-baked",
+      "price": "25 DH"
+    },
+    "like-burger": {
+      "name": "Like Burger",
+      "category": "Burgers",
+      "description": "Juicy patty, double cheese, signature sauce, fries included",
+      "price": "20 DH alone / 25 DH with fries"
+    },
+    "altText": "Photo of {{name}}",
+    "order": "Order"
+  },
+  "menu": {
+    "title": "Our Complete Menu",
+    "subtitle": "Discover all our specialties — pizzas, tacos, burgers, dishes, pasta, salads and fresh juices",
+    "subtitleAll": "All our dishes ({{count}} items)",
+    "subtitleCategory": "{{category}} ({{count}} items)",
+    "searchSuffix": "— search: \"{{query}}\"",
+    "searchPlaceholder": "Search for a dish, ingredient...",
+    "clearSearch": "Clear search",
+    "searchAriaLabel": "Search menu",
+    "filterAriaLabel": "Filter by category",
+    "resultsCount": "{{count}} dish found",
+    "resultsCount_plural": "{{count}} dishes found",
+    "noResults": "No dish matches your search",
+    "resetFilters": "Reset filters",
+    "itemCount": "{{count}} dish",
+    "itemCount_plural": "{{count}} dishes",
+    "categories": {
+      "all": "Full Menu",
+      "tacos": "Tacos",
+      "sandwichs": "Sandwiches",
+      "panini": "Panini",
+      "pizza": "Pizza",
+      "plats": "Dishes",
+      "burgers": "Burgers",
+      "poutchi": "Poutchi",
+      "pastichio": "Pastichio",
+      "nuggets": "Nuggets",
+      "pates": "Pasta",
+      "shawarma": "Shawarma",
+      "salade": "Salad",
+      "chicken": "Chicken",
+      "jus": "Juices",
+      "extras": "Extras"
+    },
+    "priceSolo": "{{price}} DH alone",
+    "priceWithFries": "{{price}} DH with fries",
+    "priceSmall": "{{price}} DH small",
+    "priceLarge": "{{price}} DH large",
+    "priceExtra": "+{{price}} DH",
+    "viewOriginalBoard": "View original menu (Image)",
+    "originalBoardTitle": "Like Food Menu",
+    "originalBoardAlt": "Complete Like Food menu"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Simple, generous, always tasty.",
+    "body": "A neighborhood kitchen designed for sharing: comforting products, generous portions and a menu that lets everyone find their favorite. Dine-in, takeaway or delivery, Like Food keeps the same promise: serving you something that will make you say \"I like it\".",
+    "serviceBadge": "The Like Food Spirit",
+    "serviceTitle": "An address that pleases.",
+    "serviceBody": "A welcoming team, an accessible menu and dishes prepared to be enjoyed without waiting. That's the Like Food spirit: good, generous and uncomplicated.",
+    "imageAlt": "Our generous homemade kitchen",
+    "serviceImageAlt": "Welcoming team and carefully prepared dishes",
+    "feature1": "Fresh & high-quality ingredients",
+    "feature2": "Generous & hearty portions",
+    "feature3": "Dine-in, takeaway & delivery"
+  },
+  "gallery": {
+    "title": "Gallery & Video",
+    "subtitle": "Discover our atmosphere and dishes in pictures",
+    "videoLabel": "Like Food presentation video",
+    "playVideo": "Play video",
+    "pauseVideo": "Pause video",
+    "photosLabel": "Photos of our dishes",
+    "viewImage": "View image {{index}} full size",
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "lightboxLabel": "Image {{current}} of {{total}}",
+    "close": "Close"
+  },
+  "contact": {
+    "title": "Shall we meet at Like Food?",
+    "address": "Address",
+    "location": "HGMC+H7V, Unnamed Road, Casablanca, Morocco",
+    "viewMap": "View on Google Maps",
+    "phone": "Phone",
+    "hours": "Opening Hours",
+    "hoursNotice": "Opening hours will be announced soon.",
+    "hoursNote": "Opening hours will be communicated soon.",
+    "delivery": "Delivery",
+    "deliveryNote": "Availability to be confirmed",
+    "deliveryPlatforms": "Delivery platforms",
+    "platforms": ["Yassir Express", "Glovo"],
+    "mapTitle": "Like Food location on Google Maps"
+  },
+  "map": {
+    "title": "Our Location",
+    "subtitle": "Visit us in the heart of Casablanca or find us on Google Maps",
+    "iframeTitle": "Like Food Casablanca location on Google Maps"
+  },
+  "footer": {
+    "tagline": "The tasty break that makes you happy.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "findUs": "Find Us",
+    "viewMap": "View on Google Maps",
+    "copyright": "© {{year}} Like Food. All rights reserved.",
+    "legalNote": "Showcase website — No online ordering. Prices and availability given for reference only."
+  },
+  "mobileActionBar": {
+    "label": "Quick Actions",
+    "call": "Call",
+    "directions": "Directions",
+    "directionsAria": "Directions to Like Food",
+    "menu": "Menu"
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "arabic": "العربية",
+    "english": "English",
+    "french": "Français",
+    "select": "Select language"
+  },
+  "common": {
+    "close": "Close",
+    "skipToContent": "Skip to main content"
+  }
+}

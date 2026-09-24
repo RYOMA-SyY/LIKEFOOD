@@ -1,0 +1,179 @@
+/* ─── Section wrapper ─────────────────────────────────────────── */
+.menu-section {
+  background: var(--color-charcoal);
+}
+
+/* ─── Blackboard-style menu board ─────────────────────────────── */
+.menu-board-wrapper {
+  background: var(--color-charcoal);
+  padding: 3.5rem 2rem 4rem;
+}
+
+.menu-board-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.menu-board-title-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.menu-board-line {
+  flex: 1;
+  max-width: 120px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-primary-yellow));
+}
+
+.menu-board-title-row .menu-board-line:last-child {
+  background: linear-gradient(to left, transparent, var(--color-primary-yellow));
+}
+
+.menu-board-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--color-primary-yellow);
+  text-shadow: 0 0 40px rgba(244, 201, 40, 0.25);
+}
+
+.menu-board-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+}
+
+/* ─── Two-column grid ─────────────────────────────────────────── */
+.menu-board-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem 3rem;
+  align-items: start;
+}
+
+/* ─── Each category block ─────────────────────────────────────── */
+.menu-board-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.menu-board-cat-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--color-primary-yellow);
+  margin-bottom: 0.5rem;
+}
+
+.menu-board-divider {
+  height: 1px;
+  background: rgba(244, 201, 40, 0.25);
+  margin-bottom: 0.75rem;
+}
+
+/* ─── Item list ───────────────────────────────────────────────── */
+.menu-board-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.menu-board-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+}
+
+.menu-board-item:last-child {
+  border-bottom: none;
+}
+
+.menu-board-item-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.88);
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+
+.menu-board-item-dots {
+  flex: 1;
+  min-width: 12px;
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.15);
+  margin: 0 0.4rem;
+  position: relative;
+  top: -0.2em;
+}
+
+.menu-board-item-price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--color-primary-yellow);
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.2;
+}
+
+.menu-board-item-price small {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.02em;
+}
+
+
+
+
+/* ─── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .menu-photo-strip {
+    max-height: 320px;
+  }
+
+  .menu-board-wrapper {
+    padding: 2.5rem 1.25rem 3rem;
+  }
+
+  .menu-board-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .menu-board-header {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-photo-strip {
+    max-height: 260px;
+  }
+
+  .menu-board-item-name,
+  .menu-board-item-price {
+    font-size: 0.875rem;
+  }
+}
