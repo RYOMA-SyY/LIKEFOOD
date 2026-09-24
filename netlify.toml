@@ -7,15 +7,14 @@
   to = "/index.html"
   status = 200
 
-[headers]
-  # Cache static assets
-  [headers.for]
+# Cache static assets
+[[headers]]
   for = "/assets/*"
   [headers.values]
   Cache-Control = "public, max-age=31536000, immutable"
 
-  # Security headers
-  [headers.for]
+# Security headers for all pages
+[[headers]]
   for = "/*"
   [headers.values]
   X-Frame-Options = "DENY"
